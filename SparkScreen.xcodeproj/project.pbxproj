@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EB128AC238FC3FC00A2E0CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB128AB238FC3FC00A2E0CC /* AppDelegate.swift */; };
+		3EB128AE238FC3FC00A2E0CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB128AD238FC3FC00A2E0CC /* SceneDelegate.swift */; };
+		3EB128B0238FC3FC00A2E0CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB128AF238FC3FC00A2E0CC /* ViewController.swift */; };
+		3EB128B3238FC3FC00A2E0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB128B1238FC3FC00A2E0CC /* Main.storyboard */; };
+		3EB128B5238FC3FD00A2E0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB128B4238FC3FD00A2E0CC /* Assets.xcassets */; };
+		3EB128B8238FC3FD00A2E0CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB128B6238FC3FD00A2E0CC /* LaunchScreen.storyboard */; };
+		3EB128C5238FCAD500A2E0CC /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB128C4238FCAD500A2E0CC /* Email.swift */; };
+		3EB128C8238FCB5100A2E0CC /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB128C7238FCB5100A2E0CC /* DataServices.swift */; };
+		3EB128CB238FD15100A2E0CC /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB128CA238FD15100A2E0CC /* EmailTableViewCell.swift */; };
+		3EB128CD238FD26B00A2E0CC /* EmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB128CC238FD26B00A2E0CC /* EmailViewModel.swift */; };
+		3EB128CF238FD5E300A2E0CC /* EmailListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB128CE238FD5E300A2E0CC /* EmailListViewModel.swift */; };
+		3EB128D4238FDB8100A2E0CC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB128D3238FDB8100A2E0CC /* UIView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EB128A8238FC3FC00A2E0CC /* SparkScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB128AB238FC3FC00A2E0CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EB128AD238FC3FC00A2E0CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3EB128AF238FC3FC00A2E0CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EB128B2238FC3FC00A2E0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EB128B4238FC3FD00A2E0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EB128B7238FC3FD00A2E0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EB128B9238FC3FD00A2E0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB128C4238FCAD500A2E0CC /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		3EB128C7238FCB5100A2E0CC /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		3EB128CA238FD15100A2E0CC /* EmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
+		3EB128CC238FD26B00A2E0CC /* EmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewModel.swift; sourceTree = "<group>"; };
+		3EB128CE238FD5E300A2E0CC /* EmailListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailListViewModel.swift; sourceTree = "<group>"; };
+		3EB128D3238FDB8100A2E0CC /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EB128A5238FC3FC00A2E0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB1289F238FC3FC00A2E0CC = {
+			isa = PBXGroup;
+			children = (
+				3EB128AA238FC3FC00A2E0CC /* SparkScreen */,
+				3EB128A9238FC3FC00A2E0CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EB128A9238FC3FC00A2E0CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB128A8238FC3FC00A2E0CC /* SparkScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB128AA238FC3FC00A2E0CC /* SparkScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3EB128D2238FDB6F00A2E0CC /* Extensions */,
+				3EB128C9238FD0F500A2E0CC /* Views */,
+				3EB128C6238FCB3E00A2E0CC /* DataServices */,
+				3EB128C3238FCAAA00A2E0CC /* Models */,
+				3EB128BF238FC85000A2E0CC /* ViewModels */,
+				3EB128AB238FC3FC00A2E0CC /* AppDelegate.swift */,
+				3EB128AD238FC3FC00A2E0CC /* SceneDelegate.swift */,
+				3EB128B1238FC3FC00A2E0CC /* Main.storyboard */,
+				3EB128B4238FC3FD00A2E0CC /* Assets.xcassets */,
+				3EB128B6238FC3FD00A2E0CC /* LaunchScreen.storyboard */,
+				3EB128B9238FC3FD00A2E0CC /* Info.plist */,
+			);
+			path = SparkScreen;
+			sourceTree = "<group>";
+		};
+		3EB128BF238FC85000A2E0CC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3EB128CC238FD26B00A2E0CC /* EmailViewModel.swift */,
+				3EB128CE238FD5E300A2E0CC /* EmailListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3EB128C3238FCAAA00A2E0CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3EB128C4238FCAD500A2E0CC /* Email.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EB128C6238FCB3E00A2E0CC /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				3EB128C7238FCB5100A2E0CC /* DataServices.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		3EB128C9238FD0F500A2E0CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EB128AF238FC3FC00A2E0CC /* ViewController.swift */,
+				3EB128CA238FD15100A2E0CC /* EmailTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EB128D2238FDB6F00A2E0CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3EB128D3238FDB8100A2E0CC /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EB128A7238FC3FC00A2E0CC /* SparkScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB128BC238FC3FD00A2E0CC /* Build configuration list for PBXNativeTarget "SparkScreen" */;
+			buildPhases = (
+				3EB128A4238FC3FC00A2E0CC /* Sources */,
+				3EB128A5238FC3FC00A2E0CC /* Frameworks */,
+				3EB128A6238FC3FC00A2E0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkScreen;
+			productName = SparkScreen;
+			productReference = 3EB128A8238FC3FC00A2E0CC /* SparkScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EB128A0238FC3FC00A2E0CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = FabioQuintanilha;
+				TargetAttributes = {
+					3EB128A7238FC3FC00A2E0CC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EB128A3238FC3FC00A2E0CC /* Build configuration list for PBXProject "SparkScreen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EB1289F238FC3FC00A2E0CC;
+			productRefGroup = 3EB128A9238FC3FC00A2E0CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EB128A7238FC3FC00A2E0CC /* SparkScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EB128A6238FC3FC00A2E0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB128B8238FC3FD00A2E0CC /* LaunchScreen.storyboard in Resources */,
+				3EB128B5238FC3FD00A2E0CC /* Assets.xcassets in Resources */,
+				3EB128B3238FC3FC00A2E0CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EB128A4238FC3FC00A2E0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB128B0238FC3FC00A2E0CC /* ViewController.swift in Sources */,
+				3EB128CB238FD15100A2E0CC /* EmailTableViewCell.swift in Sources */,
+				3EB128C5238FCAD500A2E0CC /* Email.swift in Sources */,
+				3EB128D4238FDB8100A2E0CC /* UIView+Extension.swift in Sources */,
+				3EB128CF238FD5E300A2E0CC /* EmailListViewModel.swift in Sources */,
+				3EB128CD238FD26B00A2E0CC /* EmailViewModel.swift in Sources */,
+				3EB128AC238FC3FC00A2E0CC /* AppDelegate.swift in Sources */,
+				3EB128C8238FCB5100A2E0CC /* DataServices.swift in Sources */,
+				3EB128AE238FC3FC00A2E0CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EB128B1238FC3FC00A2E0CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB128B2238FC3FC00A2E0CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EB128B6238FC3FD00A2E0CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB128B7238FC3FD00A2E0CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EB128BA238FC3FD00A2E0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EB128BB238FC3FD00A2E0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EB128BD238FC3FD00A2E0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8M84SE4ND;
+				INFOPLIST_FILE = SparkScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FabioQuintanilha.SparkScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EB128BE238FC3FD00A2E0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8M84SE4ND;
+				INFOPLIST_FILE = SparkScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FabioQuintanilha.SparkScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EB128A3238FC3FC00A2E0CC /* Build configuration list for PBXProject "SparkScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB128BA238FC3FD00A2E0CC /* Debug */,
+				3EB128BB238FC3FD00A2E0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB128BC238FC3FD00A2E0CC /* Build configuration list for PBXNativeTarget "SparkScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB128BD238FC3FD00A2E0CC /* Debug */,
+				3EB128BE238FC3FD00A2E0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EB128A0238FC3FC00A2E0CC /* Project object */;
+}
